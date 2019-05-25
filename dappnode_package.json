@@ -1,0 +1,33 @@
+{
+  "name": "fairdrop.public.dappnode.eth",
+  "version": "0.0.1",
+  "description": "Fairdrop: Secure, private, unstoppable file transfer for the free world",
+  "avatar": "/ipfs/QmQbwD61LSo9BGN6qfxPzEJQtuB1J9bvHXPcByWjMU3YyF",
+  "type": "library",
+  "image": {
+    "path": "fairdrop.public.dappnode.eth_0.0.1.tar.xz",
+    "hash": "/ipfs/QmZ4hhRdcVMgTdWN3p6qhbicihgsy8VCzUkx779V8kphgW",
+    "size": 6736529,
+    "restart": "always",
+    "volumes": [
+      "fairdrop:/root/.ethereum"
+    ]
+  },
+  "author": "Eduardo Antuña <edu@dappnode.io> (https://github.com/eduadiez)",
+  "license": "GPL-3.0",
+  "homepage": {
+    "Fairdrop": "http://fairdrop.public.dappnode/",
+    "homepage": "https://github.com/fairDataSociety"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduadiez/DAppNodePackage-fairdrop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eduadiez/DAppNodePackage-fairdrop/issues"
+  },
+  "dependencies": {
+    "swarm.dnp.dappnode.eth": "latest",
+    "fairdrop-network.public.dappnode.eth": "latest"
+  }
+}
